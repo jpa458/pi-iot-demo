@@ -1,14 +1,20 @@
-# IOT demo
+# IOT demo on GCP
 
 ## Setup
 I have 2 Raspberry Pis:
 - Sensehat : which pushes sensory data to Pub/Sub -> DataFlow -> BigTable/BigQuery. It can also receive device config updates to activate the light panel.
-- Hub : Acts as a remote IoT device hub.  I've connected a radio wireless receiver to the Pi that receives a switch on/off signal from a remote switch/transmitter.
+- Hub : Acts as a remote IoT device hub.  I've connected a radio wireless receiver to the Pi that receives a switch on/off signal from a remote switch/transmitter (arduino like setup)
 
 Both Pis are registered securely with IoT Core and have Pub/Sub topics for bidirectional communication.
 Setup is out of scope of this repo. See https://codelabs.developers.google.com/codelabs/iotcore-heartrate/#0 for inspiration.
 
 I've also incorporated Dialogflow to command the Sensehat light panel via voice.
+
+## Hardware
+![Hardware](./imgs/Pis.jpg)
+- 2x Raspberry Pi
+- Sensehat
+- JeeLink, JeeNode V6, Blink Plug : https://jeelabs.org/
 
 ## 3 Use Cases
 ### Light Up with Voice
