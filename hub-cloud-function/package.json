@@ -1,0 +1,8 @@
+{
+  "name": "iot_loopback_gcp_function",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "googleapis": "20.1.0"
+  }
+}

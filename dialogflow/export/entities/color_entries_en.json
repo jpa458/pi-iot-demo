@@ -1,0 +1,76 @@
+[
+  {
+    "value": "blue",
+    "synonyms": [
+      "blue",
+      "sleep",
+      "sleeping"
+    ]
+  },
+  {
+    "value": "daylight",
+    "synonyms": [
+      "daylight"
+    ]
+  },
+  {
+    "value": "green",
+    "synonyms": [
+      "green",
+      "party"
+    ]
+  },
+  {
+    "value": "orange",
+    "synonyms": [
+      "orange"
+    ]
+  },
+  {
+    "value": "pink",
+    "synonyms": [
+      "pink"
+    ]
+  },
+  {
+    "value": "purple",
+    "synonyms": [
+      "purple"
+    ]
+  },
+  {
+    "value": "red",
+    "synonyms": [
+      "red",
+      "romantic"
+    ]
+  },
+  {
+    "value": "soft white",
+    "synonyms": [
+      "dome",
+      "soft white"
+    ]
+  },
+  {
+    "value": "warm white",
+    "synonyms": [
+      "relax",
+      "relaxing",
+      "warm white"
+    ]
+  },
+  {
+    "value": "white",
+    "synonyms": [
+      "normal",
+      "white"
+    ]
+  },
+  {
+    "value": "yellow",
+    "synonyms": [
+      "yellow"
+    ]
+  }
+]

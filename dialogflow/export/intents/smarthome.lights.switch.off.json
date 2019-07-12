@@ -1,0 +1,79 @@
+{
+  "id": "64507074-2f53-4310-b363-8fa1a2e4180b",
+  "name": "smarthome.lights.switch.off",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.lights.switch.off",
+      "affectedContexts": [
+        {
+          "name": "room",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fd0622d6-e748-4ed7-9a2d-024467b062e1",
+          "required": false,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        },
+        {
+          "id": "09eaf3d7-3282-4812-8a45-38e175cf6002",
+          "required": false,
+          "dataType": "@lights",
+          "name": "device",
+          "value": "$device",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        },
+        {
+          "id": "d54eab02-5e63-4841-9c04-73e84f65bc5c",
+          "required": false,
+          "dataType": "@color",
+          "name": "color",
+          "value": "$color",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        },
+        {
+          "id": "835e7b51-52dd-4af4-9d7c-f28cdc0af287",
+          "required": false,
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
